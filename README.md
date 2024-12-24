@@ -1,5 +1,5 @@
 # Data-Structures
-
+Text_Editor
 This C++ project showcases various Data Structures and Algorithms (DSA) implementations within the context of a simple Notepad application. Key features include a Trie tree for efficient word storage and retrieval, as well as Huffman encoding and decoding for text compression.
 
 **Features:**
