@@ -1,30 +1,88 @@
-# Data-Structures
-Text_Editor
-This C++ project showcases various Data Structures and Algorithms (DSA) implementations within the context of a simple Notepad application. Key features include a Trie tree for efficient word storage and retrieval, as well as Huffman encoding and decoding for text compression.
+# Text Editor
 
-**Features:**
-**Notepad Application:**
+This C++ project demonstrates the practical application of advanced Data Structures and Algorithms (DSA) within the framework of a simple yet powerful Notepad application. It integrates efficient techniques for text manipulation, storage, and compression, making it a valuable tool for both developers and DSA enthusiasts.
 
-Basic text editing functionalities (e.g., create, edit, save).
+## 🚀 Features
 
-User-friendly console interface.
+### Notepad Application
+- **Basic Text Editing**: Create, edit, and save text files with ease.
+- **User-Friendly Interface**: Intuitive console-based UI for seamless interaction.
 
-**Trie Tree:**
+### Trie Tree Integration
+- **Efficient Word Storage**: Store and retrieve words in real-time.
+- **Autocomplete Support**: Instantly suggest completions for partially typed words.
+- **Quick Search Operations**: Perform fast and reliable word lookups.
 
-Efficient word storage and retrieval.
+### Huffman Encoding and Decoding
+- **Text Compression**: Utilize Huffman coding to reduce text file sizes efficiently.
+- **Decompression**: Reconstruct the original text from Huffman-encoded files.
 
-Support for autocomplete and quick search operations.
+## 🛠️ How to Build and Run
 
-**Huffman Encoding/Decoding:**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/text-editor.git
+   cd text-editor
+   ```
 
-Text compression using Huffman coding.
+2. **Compile the Source Code**:
+   Use your preferred C++ compiler. For example:
+   ```bash
+   g++ -o text_editor main.cpp trie.cpp huffman.cpp -std=c++17
+   ```
 
-Decompression of Huffman-encoded text.
+3. **Run the Executable**:
+   ```bash
+   ./text_editor
+   ```
 
-**How to Use:**
+## 📚 How It Works
 
-Clone the repository.
+### Trie Tree
+- **Structure**: A multi-way tree structure used for storing strings efficiently.
+- **Applications**: Supports operations like insertion, search, and auto-complete with high performance.
 
-Compile the C++ source code.
+### Huffman Coding
+- **Compression**: Encodes characters using variable-length codes based on their frequencies.
+- **Algorithm**: Builds a binary tree (Huffman Tree) for optimal encoding.
+- **Decompression**: Decodes text using the Huffman Tree to reconstruct the original file.
 
-Run the executable for the Notepad application.
+## 💡 Use Cases
+- Text editors and word processors.
+- Efficient storage and retrieval systems.
+- File compression utilities.
+
+## 🖥️ Tech Stack
+- **Programming Language**: C++
+- **Data Structures**: Trie Tree, Priority Queue (used in Huffman Coding)
+- **Algorithms**: Huffman Coding, String Manipulation
+
+## 🤝 Contributing
+We welcome contributions to enhance this project! Here's how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add a new feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Submit a pull request.
+
+## 📝 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+For any inquiries or feedback, please feel free to contact us:
+- **Email**: ismailsarfraz9345@gmail.com
+- **GitHub**: [YourUsername](https://github.com/yourusername)
+
+---
+
+*Made with ❤️ by YourName*
